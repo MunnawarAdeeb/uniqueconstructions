@@ -72,6 +72,7 @@ section {
 .section-header {
   text-align: center;
   padding-bottom: 70px;
+  background: url("../img/footer-bg.jpg") 
 }
 
 .section-header h2 {
