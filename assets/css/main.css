@@ -681,11 +681,25 @@ section {
   border-radius: 0;
 }
 
+/* Default styles */
 .constructions .card-item .card-bg {
   min-height: 300px;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Larger screens - cover */
+@media screen and (min-width: 768px) {
+  .constructions .card-item .card-bg {
+    background-size: cover;
+  }
+}
+
+/* Smaller screens - 100% 100% */
+@media screen and (max-width: 767px) {
+  .constructions .card-item .card-bg {
+    background-size: 100% 100%;
+  }
 }
 
 .constructions .card-item .card-body {
